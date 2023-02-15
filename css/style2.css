@@ -7,3 +7,8 @@ div{
     height: 50px;
     text-align: center;
 }
+
+p{font-size: 20px;}
+span{
+    font-size: 5em;
+}

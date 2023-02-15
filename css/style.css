@@ -1,1 +1,38 @@
-body
+body{
+    background-image: url(https://images.unsplash.com/photo-1676348879583-fd7e0fd5514c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* specificity rule  */
+
+/* if element with last declaration rould be called  */
+/* in beloe ex h2 color would be blue as it last declared and specificuty is 0,0,0,1.  it depends on the property not 
+the all block ex if color is defined in both then the last one to defien would be called
+if matching property is not found in other specifiers then all ot the would be called just color property
+overlaps so it would be called when it is declared last.
+*/
+h2{
+    color : red;
+    text-align: center;
+    border: 5px solid rgba(0, 125, 255, 0.5);
+    background-color: bisque;
+
+    cursor: pointer;
+}
+
+h2{
+    color : blue;
+   
+}
+
+
+li{
+    list-style: none;
+    display: inline-block;
+    color: azure;
+    
+}
+
+p{
+    color: white;
+}

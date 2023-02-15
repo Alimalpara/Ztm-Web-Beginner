@@ -36,3 +36,30 @@ li{
 p{
     color: white;
 }
+
+#first ul  > li:hover::before{ 
+    content: "gh";
+    background-color: aqua;
+   
+}
+
+div .table p:nth-child(2n+1){
+    background-color: aqua;
+}
+/* to set iage to right side of p tag */
+img{
+    float: left;
+}
+/* to clear the float style of above property */
+footer{clear: both;
+text-align: center;}
+    
+/* to add font famil */
+.aboutp{
+    border: 5px solid rgba(255, 0, 217, 0.4);
+    font-size: 120%;
+    line-height: 50pxpx;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Poiret One';
+}

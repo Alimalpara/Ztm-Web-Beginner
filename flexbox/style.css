@@ -49,12 +49,11 @@ img{
  .flex-img img{
     width: 250px;
     height: auto;
-   transition: all 1s;
+   transition: all 2s;
 }
 
 img:hover{
-    transform: scale(1.1);
-}
+transform: scale(1.1)}
 
 
 

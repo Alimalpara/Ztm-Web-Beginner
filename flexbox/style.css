@@ -49,8 +49,14 @@ img{
  .flex-img img{
     width: 250px;
     height: auto;
-   
+   transition: all 1s;
 }
+
+img:hover{
+    transform: scale(1.1);
+}
+
+
 
 .flex-heading{
     display: flex;

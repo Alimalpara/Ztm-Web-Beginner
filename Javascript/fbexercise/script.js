@@ -27,7 +27,7 @@
 // }
 
 // checkUser(userNamePrompt,userPasswordPrompt);
-
+ActiveXObject;
 
 var checkArray = [1,2,3,4,5];
 

@@ -31,9 +31,9 @@
 
 var checkArray = [1,2,3,4,5];
 
-for(var i = 0; i<checkArray.length;i++){
-    console.log(i, checkArray[i]);
-}
+// for(var i = 0; i<checkArray.length;i++){
+//     console.log(i, checkArray[i]);
+// }
 
 function todoForEach(i,j){
     console.log(i,j);

@@ -27,7 +27,7 @@
 // }
 
 // checkUser(userNamePrompt,userPasswordPrompt);
-caches;
+
 
 var checkArray = [1,2,3,4,5];
 

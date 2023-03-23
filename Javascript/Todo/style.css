@@ -1,3 +1,7 @@
+
+html{
+  font-size: 10px;
+}
 .coolTitle {
   text-align: center;
   font-family: 'Oswald', Helvetica, sans-serif;
@@ -18,20 +22,104 @@
     -30px 20px 40px dimgrey;
 }
 
-.done {
+.done{
   text-decoration: line-through;
 }
 
 ul{
-  background: red;
+  list-style: none;
 }
 
 li{
-  background: white;
   width: auto;
+  color: white;
+
 }
 #del{
-  background: red;
+  background-color: #887CAF;
   color: white;
   margin-left: 1rem;
+  transition: all 300ms ease-in-out;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+#del:hover{
+  transform: scale(1.1);
+  background-color: red;
+}
+h1,p{
+  color: white;
+
+}
+h1{
+  font-size: 1.6rem;
+}
+.input button{
+  border-radius: 10px;
+  padding: 0.3rem;
+  font-size: 1.6rem;
+  width: 7rem;
+  height: 4rem;
+  background-color: #887CAF;
+  transition: all 200ms ease-in-out ;
+color: white;  
+}
+.input button:hover{
+  transform: scale(1.3);
+  margin-left: 1rem;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  background-color: #403075;
+  width: 50vw;
+  height: auto;
+  text-align: center;
+  border-radius: 20px;
+
+}
+#userinput{
+  border-radius: 1rem;
+  text-align: center;
+  color:#261758;
+  text-transform: capitalize;
+  height: 3rem;
+  padding-top: 0.5rem;
+}
+.input{
+  display: flex;
+  justify-content: center;
+  width: 45rem;
+  
+  
+}
+.list{
+  display: flex;
+  justify-content: center;
+  
+  
+}
+li{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  font-size: 2rem;
+}
+.list button{
+  display: flex;
+  transition: all 300ms ease-in-out;
+  background-color: red;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  
+}
+.mainlist{
+  display: flex;
+  justify-content: flex-start;
 }

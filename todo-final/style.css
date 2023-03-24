@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+    
+}
+
+main{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+
+.flexbox-container {
+    background-color: red;
+    display: flex;
+    width: 100%;
+    min-height: 75rem;
+    margin: 0 auto;
+    align-items: center;
+    flex-flow:  column wrap;
+    gap: 1rem;
+}
+
+.heading,.input,.listitems{
+    display: flex;
+   
+    width: 70%;
+    
+    background-color: aqua ;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    height: 5rem;
+}
+
+.input{
+    display: flex;
+       justify-content: center;
+        flex-flow: row wrap;
+        width: 70%;
+    
+}
+
+.listitems{
+    display: flex;
+    justify-content: center;
+
+}
+

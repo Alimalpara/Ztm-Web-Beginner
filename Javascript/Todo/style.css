@@ -125,12 +125,12 @@ ul{
 
 }
 li{
-  display: flex;
-  flex-flow:row wrap;
+display: flex;
   justify-content: space-between;
-  max-width: 100%;
-  
-  font-size: 1.6rem;
+  align-items: flex-end;
+  border-bottom: solid 1px white;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   
  
 }
@@ -147,9 +147,7 @@ li{
 }
 .mainlist{
   display: flex;
-  background-color: black;
-flex-flow:  wrap; 
-max-width: 100%;
+    justify-content: center;
 }
 
 

@@ -54,4 +54,9 @@ main{
     justify-content: center;
 
 }
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
 

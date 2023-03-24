@@ -122,6 +122,7 @@ ul{
   display: flex;
   flex-flow: column wrap;
   max-width: 100%;
+  margin-bottom: 1rem;
 
 }
 li{
